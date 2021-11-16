@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+body {
+  height: 100vh;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background: #42c7f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  height: 70%;
+  width: 60%;
+  background: #f5f5f5;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+section nav {
+  background: #024594;
+  color: white;
+  font-family: sans-serif;
+}
+
+section nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  width: 100%;
+}
+
+section nav ul li {
+  list-style: none;
+  display: flex;
+}
+
+section .cards {
+  height: 100%;
+  padding: 20px 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+section .cards .colors {
+  width: 100%;
+  height: 24%;
+  display: flex;
+  justify-content: space-between;
+}
+
+section .cards .colors .dark-blue {
+  height: 100%;
+  width: 38%;
+  border-radius: 8px;
+  background: #024594;
+}
+
+section .cards .colors .gradient {
+  height: 100%;
+  width: 60%;
+  background: rgb(2, 69, 148);
+  background: linear-gradient(
+    196deg,
+    rgba(2, 69, 148, 1) 0%,
+    rgba(0, 128, 208, 1) 64%,
+    rgba(61, 188, 238, 1) 91%
+  );
+}
+
+section .cards .text {
+  background: #ffffff;
+  width: 100%;
+  height: 25%;
+  margin: 20px 0;
+  -webkit-box-shadow: 0px 7px 5px 3px rgba(171, 171, 171, 0.89);
+  box-shadow: 0px 7px 5px 3px rgba(171, 171, 171, 0.89);
+}
+
+section .cards .text p {
+  color: #6b6b6b;
+}
+
+section .cards .text p i {
+  color: black;
+}
+section .cards .text p span {
+  color: red;
+  font-weight: bold;
+}
+section .cards .text p strong {
+  color: black;
+  font-weight: bold;
+}
+
+section .cards .text p u {
+  color: orange;
+}
+
+section .cards .table {
+  width: 100%;
+  min-height: 35%;
+  display: flex;
+  justify-content: space-between;
+}
+
+section .cards .table table {
+  width: 35%;
+  height: 90%;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 7px 5px 3px rgba(171, 171, 171, 0.89);
+  box-shadow: 0px 7px 5px 3px rgba(171, 171, 171, 0.89);
+}
+
+.cor-green {
+  color: green;
+}
+
+.cor-red {
+  color: red;
+}
+
+section .cards .table table thead tr {
+  width: 100%;
+  text-align: center;
+}
+
+section .cards .table table tbody tr {
+  width: 100%;
+  text-align: center;
+}
+
+section .cards .table .toggle {
+  width: 45%;
+  height: 100%;
+  background: #ffffff;
+  padding: 5px;
+  -webkit-box-shadow: 0px 7px 5px 3px rgba(171, 171, 171, 0.89);
+  box-shadow: 0px 7px 5px 3px rgba(171, 171, 171, 0.89);
+}
+
+section .cards .table .toggle p{
+  cursor: pointer;
+}
+
+section .cards .table .toggle img {
+  width: 100px;
+  height: 100px;
+}
+
+section .cards .table .toggle .img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background: #42c7f4;
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.active {
+  display: none;
+}
